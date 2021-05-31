@@ -1,0 +1,15 @@
+
+  <extension-description>
+    <src xlink:href="description/desc_en.txt"/>
+    <src xlink:href="description/desc_en.txt" lang="en" />
+  </extension-description>
+  <dependencies>
+    <l:LibreOffice-minimal-version value="4.0" d:name="LibreOffice.org or Open Office 4.0" />
+  </dependencies>
+  <registration>
+    <simple-license accept-by="admin">
+      <license-text xlink:href="license/license.txt" />
+      <license-text xlink:href="license/license.txt" lang="en-US" />
+    </simple-license>
+  </registration>
+</description>
