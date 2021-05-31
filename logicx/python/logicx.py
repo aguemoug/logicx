@@ -49,7 +49,7 @@ def to_rgbint(hex_str):
 
 
 def log(msg):
-    with open("/tmp/code-highlighter.log", "a") as text_file:
+    with open("/tmp/logicx.log", "a") as text_file:
         text_file.write(str(msg) + "\r\n\r\n")
 
 
