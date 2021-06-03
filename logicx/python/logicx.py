@@ -116,8 +116,8 @@ def apply_previous_settings():
     smgr = ctx.ServiceManager
     cfg = smgr.createInstanceWithContext('com.sun.star.configuration.ConfigurationProvider', ctx)
     prop = PropertyValue()
-    prop.Name = 'nodepath'
-    prop.Value = '/ooo.ext.code-highlighter.Registry/Settings'
+    prop.Name = 'Hidden'
+    prop.Value = True
     cfg_access = cfg.createInstanceWithArguments('com.sun.star.configuration.ConfigurationAccess', (prop,))
 
     lang = cfg_access.getPropertyValue('Language')
