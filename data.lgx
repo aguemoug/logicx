@@ -1,0 +1,66 @@
+
+// And Gate
+#$logic gates /And
+log_init
+S:AND_gate(2);
+line left 4*L_unit from S.In1;
+line left 4*L_unit from S.In2;
+line right 4*L_unit from S.Out;
+#;
+// Or gate
+#$logic gates /Or
+log_init
+S:OR_gate(2);
+line left 4*L_unit from S.In1;
+line left 4*L_unit from S.In2;
+line right 4*L_unit from S.Out;
+#;
+
+// Or gate
+#$logic gates /Xor
+log_init
+S:XOR_gate(2);
+line left 4*L_unit from S.In1;
+line left 4*L_unit from S.In2;
+line right 4*L_unit from S.Out;
+#;
+
+
+#$logic gates /Not
+log_init
+S:NOT_gate;
+line left 2*L_unit  from S.In1;
+line right 2*L_unit  from S.Out;
+#;
+
+#$logic gates /Nand
+log_init
+S:NAND_gate(2);
+line left 4*L_unit from S.In1;
+line left 4*L_unit from S.In2;
+line right 4*L_unit from S.Out;
+#;
+#$logic gates /Nor
+log_init
+S:NOR_gate(2);
+line left 4*L_unit from S.In1;
+line left 4*L_unit from S.In2;
+line right 4*L_unit from S.Out;
+#;
+#$Multiplexers /Mux 2x1
+log_init
+S:Mux(2,,S1);
+#;
+#$Multiplexers /Mux 4x1
+log_init
+S:Mux(4,,S2);
+#;
+#$Multiplexers /Mux 8x1
+log_init
+S:Mux(8,,S3);
+#;
+
+#$Multiplexers /Mux 16x1
+log_init
+S:Mux(16,,S4,0.6,1.5);
+#;

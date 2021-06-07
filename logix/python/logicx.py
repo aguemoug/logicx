@@ -1,4 +1,4 @@
- Code Highligher is a LibreOffice extension to highlight code snippets
+ #Code Highligher is a LibreOffice extension to highlight code snippets
 # over 350 languages.
 
 # Copyright (C) 2017  Gobinath

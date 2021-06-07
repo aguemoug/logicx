@@ -1,10 +1,16 @@
 
   <extension-description>
-    <src xlink:href="description/desc_en.txt"/>
     <src xlink:href="description/desc_en.txt" lang="en" />
   </extension-description>
+  <display-name>
+		<name>Logix</name>
+	</display-name>
+  <icon>
+		<default xlink:href="icons/logix.svg" />
+	</icon>
+  <version value="0.01"/>
   <dependencies>
-    <l:LibreOffice-minimal-version value="4.0" d:name="LibreOffice.org or Open Office 4.0" />
+    <l:LibreOffice-minimal-version value="3.3" d:name="LibreOffice.org or Open Office 3.3" />
   </dependencies>
   <registration>
     <simple-license accept-by="admin">
